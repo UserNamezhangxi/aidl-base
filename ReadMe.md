@@ -36,7 +36,7 @@
 	            double aDouble, String aString);
 	}
 
-那么我们修改它的这些基本的数据类型，在参数里添加`byte aBtye ,``char aChar,``short aShort ,`编译后发现系统不认识这`short aShort ,` 所以就不支持这个数据类型了。
+那么我们修改它的这些基本的数据类型，在参数里添加`byte aBtye `,`char aChar`,`short aShort ,`编译后发现系统不认识这`short aShort` 所以就不支持这个数据类型了。
 
 ####基本数据类型： 
 
