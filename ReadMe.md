@@ -453,5 +453,10 @@ OK，服务端到此为止。
 	- 注意：
 		- 在客户端onCreate 的时候，需要进行绑定服务，获取客户端的binder对象，调用add()方法。
 		- 5.0 以后要求显式调用 Service，所以我们无法通过 action 或者 filter 的形式调用 Service
-		- service 简历连接的方法中 IMyAidlInterface.Stub.asInterface(service) 用来得到相应的我们定义的AIDL接口的代理对象, 然后可以执行相应的方法。
+		- service 建立连接的方法中 IMyAidlInterface.Stub.asInterface(service) 用来得到相应的我们定义的AIDL接口的代理对象, 然后可以执行相应的方法。
 		
+	最终效果
+
+	![最终效果](https://i.imgur.com/kCAkbAT.gif)
+
+	###[慕课网参考](https://www.imooc.com/learn/606 "慕课网参考")
