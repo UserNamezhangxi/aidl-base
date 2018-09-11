@@ -21,6 +21,7 @@
 ### 2. AIDL 支持的数据类型 ###
 
 默认我们创建好的AIDL 文件如下：
+
 	// IMyAidlInterface.aidl
 	package com.zx.aidldemo;
 	
